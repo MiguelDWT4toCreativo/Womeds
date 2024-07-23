@@ -4,7 +4,7 @@ import SingleCount from '../../../../components/SingleCount/SingleCount';
 const CounterArea = () => {
    return (
       <>
-         <section className="about-area pt-120 pb-80">
+         {/* <section className="about-area pt-120 pb-80">
             <div className="container">
                <div className="row">
 
@@ -14,7 +14,7 @@ const CounterArea = () => {
 
                </div>
             </div>
-         </section>
+         </section> */}
       </>
    );
 };

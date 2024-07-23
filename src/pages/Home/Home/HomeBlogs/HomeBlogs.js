@@ -7,7 +7,7 @@ const HomeBlogs = () => {
    return (
       <>
          <section className="latest-news-area pt-115 pb-20">
-            <div className="container">
+            {/* <div className="container">
                <div className="row">
                   <div className="col-xl-6 col-lg-7">
                      <div className="section-title pos-rel mb-75">
@@ -51,7 +51,7 @@ const HomeBlogs = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
          </section>
       </>
    );

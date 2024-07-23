@@ -12,8 +12,8 @@ const AboutTestimonial = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Testimonials</h5>
-                           <h1>Our Clients Says About Us</h1>
+                           <h5>Opiniones</h5>
+                           <h1>Nuestros Clientes Opinan Acerca de Nosotros</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt=""/>
@@ -33,16 +33,13 @@ const AboutTestimonial = () => {
                                  <img src="img/testimonials/testi-quato-icon.png" alt=""/>
                               </div>
                               <div className="text-text-boxx">
-                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
-                                    ut
-                                    perspiciatis unde omnis iste natus error sit voluptatem. accusantium
-                                    doloremque laudantium, totam rem aperiam.</p>
+                                 <p>El equipo de Womeds ha transformado mi vida. Los resultados de mis tratamientos han superado mis expectativas. La atención y profesionalismo que ofrecen es inigualable.</p>
                               </div>
                               <span></span>
                            </div>
                            <div className="testi-author">
                               <h2 className="testi-author-title">Rosalina D. Williamson</h2>
-                              <span className="testi-author-desination">founder, uithemes</span>
+                              <span className="testi-author-desination">Fundadora</span>
                            </div>
                            <div className="test-author-icon">
                               <img src="img/testimonials/testi-author-icon.png" alt=""/>

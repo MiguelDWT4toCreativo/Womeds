@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
-import Footer from '../../components/Shared/Footer';
+import Footer from '../Home/Home/HomeFooter/HomeFooter';
 import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
 import ContactArea from './ContactArea/ContactArea';
 import ContactFormArea from './ContactFormArea/ContactFormArea';
@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <>
             <HomeHeader/>
-            <CommonPageHeader title="Contact Us" subtitle="Contact" />
+            <CommonPageHeader title="Contactanos" subtitle="Contactanos" />
             <ContactArea/>
             <ContactFormArea/>
             <ContactMap/>

@@ -13,15 +13,19 @@ const HomeHeroSingleSlide = ({ bg_className}) => {
                   <div className="col-xl-6 col-lg-8 col-md-10">
                      <div className="hero-text">
                         <div className="hero-slider-caption ">
-                           <h5>We are here for your care.</h5>
-                           <h1>Best Care & Better Doctor.</h1>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                           {/* <h1>Bienvenido a Womeds.</h1> */}
+                           <br></br>
+                           <br></br>
+                           <br></br>
+                           <br></br>
+                           <br></br>
+                           <br></br>
+                           <p>Descubre la excelencia en medicina estética en Pachuca. Nuestros tratamientos personalizados y tecnología avanzada te brindan resultados visibles y duraderos.</p>
                         </div>
                         <div className="hero-slider-btn">
-                           <Link to="/contact" className="primary_btn btn-icon ml-0"><span>+</span>Make Appointment</Link>
+                           <Link to="https://wa.me/+5217711979737" className="primary_btn btn-icon ml-0">Reserva tu cita ahora</Link><br/>
 
-                           <button onClick={() => setIsOpen(true)}
-                              className="play-btn popup-video"><i className="fas fa-play"></i></button>
+                           {/* <Link to="/services" className="primary_btn btn-icon ml-0">Conoce nuestros tratamientos</Link> */}
 
                         </div>
                      </div>

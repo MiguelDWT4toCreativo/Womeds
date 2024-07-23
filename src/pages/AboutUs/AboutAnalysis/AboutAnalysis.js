@@ -4,7 +4,7 @@ import AboutSingleAnalysis from '../../../components/AboutSingleAnalysis/AboutSi
 const AboutAnalysis = () => {
    return (
       <>
-         <section className="analysis-area pos-rel theme-bg pb-90">
+         {/* <section className="analysis-area pos-rel theme-bg pb-90">
             <div className="analysis-bg-icon">
                <img src="img/analysis/analysis-bg-icon.png" alt="" />
             </div>
@@ -52,7 +52,7 @@ const AboutAnalysis = () => {
                   </div>
                </div>
             </div>
-         </section>
+         </section> */}
       </>
    );
 };

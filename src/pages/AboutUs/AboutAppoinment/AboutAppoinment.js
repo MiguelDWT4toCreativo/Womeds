@@ -10,31 +10,32 @@ const AboutAppoinment = () => {
                   <div className="col-lg-8">
                      <div className="appoinment-box white">
                         <div className="appoinment-content">
-                           <span className="small-text">Our Approch</span>
-                           <h1>If you are a patient seeking quality.</h1>
-                           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+                           <span className="small-text">Nuestro Enfoque</span>
+                           <h1>Si eres un paciente en busca de calidad.</h1>
+                           <p>En Womeds, nos dedicamos a proporcionar tratamientos estéticos de alta calidad adaptados a tus necesidades. 
+                              Nuestro equipo de especialistas utiliza la tecnología más avanzada y productos de primera categoría para 
+                              garantizar resultados visibles y duraderos. Nos enfocamos en tu bienestar integral y trabajamos para ofrecerte 
+                              una experiencia satisfactoria en cada visita.</p>
                            <ul className="professinals-list pt-30">
                               <li>
                                  <i className="fa fa-check"></i>
-                                 Ut enim ad minim veniam, quis nostrud exercit.
+                                 Enfocamos nuestros esfuerzos en comprender tus necesidades individuales.
                               </li>
                               <li>
                                  <i className="fa fa-check"></i>
-                                 Ut enim ad minim veniam, quis nostrud exercit.
+                                 Utilizamos tecnología de punta para todos nuestros tratamientos.
                               </li>
                               <li>
                                  <i className="fa fa-check"></i>
-                                 Ut enim ad minim veniam, quis nostrud exercit.
+                                 Ofrecemos un ambiente acogedor y profesional.
                               </li>
                               <li>
                                  <i className="fa fa-check"></i>
-                                 Ut enim ad minim veniam, quis nostrud exercit.
+                                 Estamos comprometidos con la satisfacción y bienestar de nuestros pacientes.
                               </li>
                            </ul>
                         </div>
-                        <Link to="/contact" className="primary_btn mt-40">make appointment</Link>
+                        <Link to="https://wa.me/+5217711979737" className="primary_btn mt-40">Haz una cita</Link>
                      </div>
                   </div>
                </div>

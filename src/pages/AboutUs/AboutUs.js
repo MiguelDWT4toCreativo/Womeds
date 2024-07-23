@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
-import Footer from '../../components/Shared/Footer';
+import Footer from '../Home/Home/HomeFooter/HomeFooter';
 import HomeFact from '../Home/Home/HomeFact/HomeFact';
 import HomeHeader from '../Home/Home/HomeHeader/HomeHeader';
 import HomeOurTeam from '../Home/Home/HomeOurTeam/HomeOurTeam';
@@ -14,7 +14,7 @@ const AboutUs = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="About Us" subtitle="About" />
+         <CommonPageHeader title="Acerca de Nosotros" subtitle="Acerca de" />
          <AboutArea/>
          <AboutCounter/>
          <AboutAppoinment/>

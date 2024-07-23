@@ -10,13 +10,13 @@ const HomeCta = () => {
 						<div className="col-xl-10 offset-xl-1 col-md-12">
 							<div className="cta-text text-center">
 								<div className="section-title pos-rel mb-50">
-									<div className="section-text section-text-white pos-rel">
-										<h5>Stay healthy & strong to enjoy life</h5>
-										<h1 className="white-color">Trust Us To Be There To Help All & Make Things Well Again.</h1>
+									<div className="section-text section-text-black pos-rel">
+										<h5>Mantente sano y fuerte para disfrutar la vida</h5>
+										<h1 className="black-color">Confía en nosotros para estar a tu lado y ayudarte a mejorar tu bienestar.</h1>
 									</div>
 								</div>
 								<div className="section-button section-button-left">
-									<Link to="/appoinment" className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>get a consultant</Link>
+									<Link to="https://wa.me/+5217711979737" className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Solicita una consulta</Link>
 								</div>
 							</div>
 						</div>

@@ -5,7 +5,7 @@ const HomeFooter = () => {
     return (
         <>
             <footer>
-                <div className="footer-top primary-bg pt-115 pb-90">
+                <div className="footer-top primary-bg pt-230 pb-180">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-5 col-lg-6 col-md-8">
@@ -15,27 +15,25 @@ const HomeFooter = () => {
                                             <i className="fas fa-phone"></i>
                                         </div>
                                         <div className="emmergency-call-text f-left">
-                                            <h6>Emergency number</h6>
-                                            <span>202-555-0104</span>
+                                            <h6>Llama ahora</h6>
+                                            <span>+52 1 771 197 9737</span>
                                         </div>
                                     </div>
                                     <div className="footer-logo mb-35">
                                         <Link to="/"><img src="img/logo/footer-logo.png" alt=""/></Link>
                                     </div>
                                     <div className="footer-contact-content mb-25">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                        <p>Visitanos en Camino Real de la Plata #200, Interior 4, Zona Plateada, Pachuca de Soto, Hidalgo, México</p>
                                     </div>
                                     <div className="footer-emailing">
                                         <ul>
-                                            <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
-                                            <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                            <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                            <li><i className="far fa-envelope"></i>womeds@info.com</li>
+                                            <li><i className="far fa-flag"></i>Camino Real de la Plata #200, Interior 4, Zona Plateada, Pachuca de Soto, Hidalgo, México</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
+                            {/* <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
                                         <h3>Departments</h3>
@@ -51,11 +49,11 @@ const HomeFooter = () => {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
+                            </div> */}
+                            {/* <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
-                                        <h3>Quick Links</h3>
+                                        <h3>Enlaces Rapidos</h3>
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
@@ -68,7 +66,7 @@ const HomeFooter = () => {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -77,7 +75,7 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright text-center">
-                                    <p className="white-color">Copyright by@ BasicTheme - 2022</p>
+                                    <p className="white-color">Copyright by@Womeds - 2024</p>
                                 </div>
                             </div>
                         </div>
