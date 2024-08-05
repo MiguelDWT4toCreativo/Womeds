@@ -161,7 +161,7 @@
 /* button style */
  .primary_btn {
      -moz-user-select: none;
-     background: #e12454;
+     background: rgb(191, 118, 255);;
      border: medium none;
      border-radius: 0;
      color: #fff;
@@ -182,8 +182,8 @@
      position: relative;
 }
  .primary_btn:hover {
-     background: #8fb569;
-     color: #fff;
+     background: #deece5;
+     color: #10111e;
 }
  .btn-icon {
      border-radius: 30px;
@@ -191,21 +191,23 @@
      padding-right: 50px;
      padding-top: 24px;
      padding-bottom: 22px;
-     background-color: rgb(225, 36, 84);
+     background-color: rgb(191, 118, 255);
      box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
 }
  .btn-icon-green {
-     background-color: rgb(143, 181, 105);
+     background-color: rgb(222,236,229);
      box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
+     color: #76808f;
 }
  .btn-icon:hover {
-     background-color: rgb(143, 181, 105);
+     background-color: rgb(222,236,229);
      box-shadow: 0px 8px 16px 0px rgba(125, 178, 73, 0.2);
-     color: #fff;
+     color: #76808f;
 }
  .btn-icon-green:hover {
-     background-color: rgb(225, 36, 84);
+     background-color: rgb(191, 118, 255);;
      box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+     color: #fff;
 }
  .btn-icon span {
      position: absolute;

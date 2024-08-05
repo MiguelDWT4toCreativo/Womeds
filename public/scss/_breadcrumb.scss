@@ -2,6 +2,8 @@
 .page_header_bg{
     background: url(../img/page/page-bg.jpg);
     background-repeat: no-repeat;
+
+    width: 100%;
 }
  .breadcrumb-bg {
      background-size: cover;
@@ -29,7 +31,7 @@
 }
  .page-breadcumb .breadcrumb-item.active {
      font-weight: 500;
-     color: #e12454;
+     color: rgb(191, 118, 255);
 }
  .page-breadcumb .breadcrumb-item + .breadcrumb-item::before {
      content: "|";

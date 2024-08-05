@@ -8,7 +8,7 @@ const ServicesDetails = () => {
     return (
         <>
             <HomeHeader/>
-            <CommonPageHeader title="Nuestros Servicios" subtitle="Details" />
+            <CommonPageHeader title="Our Services" subtitle="Details" />
             <ServicesDetailsArea/>
             <Footer/>
         </>

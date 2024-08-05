@@ -35,15 +35,15 @@ const AboutTestimonial = () => {
                               <div className="text-text-boxx">
                                  <p>El equipo de Womeds ha transformado mi vida. Los resultados de mis tratamientos han superado mis expectativas. La atención y profesionalismo que ofrecen es inigualable.</p>
                               </div>
-                              <span></span>
+                              {/* <span></span> */}
                            </div>
-                           <div className="testi-author">
+                           {/* <div className="testi-author">
                               <h2 className="testi-author-title">Rosalina D. Williamson</h2>
                               <span className="testi-author-desination">Fundadora</span>
                            </div>
                            <div className="test-author-icon">
                               <img src="img/testimonials/testi-author-icon.png" alt=""/>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                   </div>

@@ -12,7 +12,7 @@ const HomeCta = () => {
 								<div className="section-title pos-rel mb-50">
 									<div className="section-text section-text-black pos-rel">
 										<h5>Mantente sano y fuerte para disfrutar la vida</h5>
-										<h1 className="black-color">Confía en nosotros para estar a tu lado y ayudarte a mejorar tu bienestar.</h1>
+										<h1 className="white-color">Confía en nosotros para estar a tu lado y ayudarte a mejorar tu bienestar.</h1>
 									</div>
 								</div>
 								<div className="section-button section-button-left">

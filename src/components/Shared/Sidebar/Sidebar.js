@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom';
 import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
-   const Home = <NavLink to="/home">Home</NavLink>
-   const Department = <NavLink to="/services">Department </NavLink>
-   const Doctors = <NavLink to="/doctors">Doctors </NavLink>
-   const Shop = <NavLink to="/shop">Shop</NavLink>
-   const News = <NavLink to="/blogSidebar">News</NavLink>
-   const Pages = <a href="#">Pages</a>
+   const Home = <NavLink to="/home">Inicio</NavLink>
+   const Doctors = <NavLink to="/doctors">Especialistas </NavLink>
+   const ME = <NavLink to="/services">Medicina Estética </NavLink>
+   const TF = <NavLink to="/servicesTwoTwo">Tratamientos Faciales </NavLink>
+   const TC = <NavLink to="/servicesThree">Tratamientos Corporales </NavLink>
+   const Pages = <a href="#">Más</a>
    return (
       <>
 
@@ -22,35 +22,45 @@ const Sidebar = ({ show, handleClose }) => {
 
 
                   <Collapsible trigger={Home} triggerTagName="div"
-                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
+                     triggerOpenedClassName="icon_close">
+                     {/* <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/">Home style 1</NavLink></li>
                         <li><NavLink to="/homeTwo">Home style 2</NavLink></li>
                         <li><NavLink to="/homeThree">Home style 3</NavLink></li>
                         <li><NavLink to="/homeFour">Home style 4</NavLink></li>
                         <li><NavLink to="/homeFive">Home style 5</NavLink></li>
-                     </ul>
+                     </ul> */}
                   </Collapsible>
 
-                  <Collapsible trigger={Department} triggerTagName="div"
+                  {/* <Collapsible trigger={Department} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/services">Services 01</NavLink></li>
                         <li><NavLink to="/servicesTwo">Services 02</NavLink></li>
                         <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
                      </ul>
-                  </Collapsible>
+                  </Collapsible> */}
 
                   <Collapsible trigger={Doctors} triggerTagName="div"
-                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
+                     triggerOpenedClassName="icon_close">
+                     {/* <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/doctors">Doctors 01</NavLink></li>
                         <li><NavLink to="/doctorsTwo">Doctors 02</NavLink></li>
                         <li><NavLink to="/doctorDetails">Doctors Details</NavLink></li>
-                     </ul>
+                     </ul> */}
                   </Collapsible>
 
-                  <Collapsible trigger={Shop} triggerTagName="div"
+                  <Collapsible trigger={ME} triggerTagName="div"
+                     triggerOpenedClassName="icon_close">
+                  </Collapsible>
+                  <Collapsible trigger={TF} triggerTagName="div"
+                     triggerOpenedClassName="icon_close">
+                  </Collapsible>
+                  <Collapsible trigger={TC} triggerTagName="div"
+                     triggerOpenedClassName="icon_close">
+                  </Collapsible>
+
+                  {/* <Collapsible trigger={Shop} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/shop">Shop Page</NavLink></li>
@@ -61,9 +71,9 @@ const Sidebar = ({ show, handleClose }) => {
                         <li><NavLink to="/login">Login</NavLink></li>
                         <li><NavLink to="/register">Register</NavLink></li>
                      </ul>
-                  </Collapsible>
+                  </Collapsible> */}
 
-                  <Collapsible trigger={News} triggerTagName="div"
+                  {/* <Collapsible trigger={News} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/blogs">Blog Right Sidebar</NavLink></li>
@@ -79,18 +89,13 @@ const Sidebar = ({ show, handleClose }) => {
                         <li><NavLink to="/blogDetailsVideo">Details Video</NavLink></li>
                         <li><NavLink to="/blogDetailsGallery">Details Gallery</NavLink></li>
                      </ul>
-                  </Collapsible>
+                  </Collapsible> */}
 
                   <Collapsible trigger={Pages} triggerTagName="div"
-                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
+                     triggerOpenedClassName="" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/about">About</NavLink></li>
-                        <li><NavLink to="/appoinment">Appoinment</NavLink></li>
-                        <li><NavLink to="/portfolioTwoColumn">Portfolio 2 column</NavLink></li>
-                        <li><NavLink to="/portfolioThreeColumn">Portfolio 3 column</NavLink></li>
-                        <li><NavLink to="/portfolioSlider">Portfolio Slider</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
-                        <li><NavLink to="/notMatch">404 page</NavLink></li>
+                        <li><NavLink to="/about">Acerca de</NavLink></li>
+                        <li><NavLink to="/contact">Contacto</NavLink></li>
                      </ul>
                   </Collapsible>
 

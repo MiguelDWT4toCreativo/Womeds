@@ -3,16 +3,16 @@ import React from 'react';
 const HomeAboutArea = () => {
    return (
       <>
-         <section className="about-area pt-120 pb-90">
+         <section className="about-area pb-90">
             <div className="container">
                <div className="row">
                   <div className="col-xl-6 col-lg-5 about_left">
                      <div className="medical-icon-brand-2">
-                        <img src="img/about/medical-brand-icon-border.png" alt=""/>
+                        <img src="img/about/medical-brand-icon-border1.png" alt=""/>
                      </div>
                      <div className="about-left-side pos-rel mb-30">
                         <div className="about-front-img">
-                           <img src="img/about/about-img.jpg" alt=""/>
+                           <img src="img/about/about.jpg" alt=""/>
                         </div>
                         <div className="about-shape">
                            <img src="img/about/about-shape.png" alt=""/>

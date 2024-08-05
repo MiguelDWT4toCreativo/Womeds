@@ -10,9 +10,8 @@ const HomeSIngleService = ({ icon, title, descripcion, border_class}) => {
                   <img src={`img/services/service${icon}.png`} alt=""/>
                </div>
                <div className="service-content">
-                  <h3><Link to="/servicesDetails">{title}</Link></h3>
+                  <h3><Link to="#">{title}</Link></h3>
                   <p>{descripcion}</p>
-                  {/* <Link className="service-link" to="/servicesDetails">Conoce Más</Link> */}
                </div>
             </div>
          </div>

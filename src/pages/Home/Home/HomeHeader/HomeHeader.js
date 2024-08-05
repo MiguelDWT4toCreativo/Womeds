@@ -28,7 +28,7 @@ const HomeHeader = () => {
                                  <li><a href="#"><i className="fab fa-pinterest"></i></a></li> */}
                               </ul>
                            </div>
-                           
+
                         </div>
                      </div>
                   </div>
@@ -44,56 +44,24 @@ const HomeHeader = () => {
                         </div>
                      </div>
                      <div className="col-xl-9 col-lg-9 col-md-6 col-6">
-                        <div className="header__menu f-right">
+                        <div className="header__menu f-left">
                            <nav id="mobile-menu">
                               <ul>
                                  <li><Link to="/">Inicio</Link></li>
-                                 {/* <li><Link to="/services">Servicios</Link>
-                                 </li> */}
-                                 <li><Link to="/doctors">Especialistas</Link>
-                                 </li>
-                                 {/* <li><Link to="/shop">Shop</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/shop">Shop Page</Link></li>
-                                       <li><Link to="/shopDetails">Shop Details</Link></li>
-                                       <li><Link to="/shoppingCart">Shopping Cart</Link></li>
-                                       <li><Link to="/checkout">Checkout</Link></li>
-                                       <li><Link to="/wishList">Wishlist</Link></li>
-                                       <li><Link to="/login">Login</Link></li>
-                                       <li><Link to="/register">Register</Link></li>
-                                    </ul>
-                                 </li> */}
-                                 {/* <li><Link to="/blogs">News +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/blogs">Blog Right Sidebar</Link></li>
-                                        <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
-                                       <li><Link to="/blogNoSideBar">Blog No Sidebar</Link></li>
-                                       <li><Link to="/blogTwoColumn">Blog 2 Column</Link></li>
-                                       <li><Link to="/blogTwoMasonry">Blog 2 Col Masonry</Link></li>
-                                       <li><Link to="/blogThreeColumn">Blog 3 Column</Link></li>
-                                       <li><Link to="/blogThreeColMasonry">Blog 3 Col Masonry</Link></li>
-                                       <li><Link to="/blogDetails">Blog Details</Link></li>
-                                       <li><Link to="/blogDetailsLeftSidebar">Details Left Sidebar</Link></li>
-                                       <li><Link to="/blogDetailsAudio">Details Audio</Link></li>
-                                       <li><Link to="/blogDetailsVideo">Details Video</Link></li>
-                                       <li><Link to="/blogDetailsGallery">Details Gallery</Link></li> 
-                                    </ul>
-                                 </li> */}
+                                 <li><Link to="/doctors">Especialistas</Link></li>
+                                 <li><Link to="/services">Medicina Estética</Link></li>
+                                 <li><Link to="/servicesTwoTwo">Tratamientos Faciales</Link></li>
+                                 <li><Link to="/servicesThree">Tratamientos Corporales</Link></li>
                                  <li><a href="#">Más +</a>
                                     <ul className="submenu">
                                        <li><Link to="/about">Acerca de</Link></li>
-                                       {/* <li><Link to="/appoinment">Appoinment</Link></li>
-                                       <li><Link to="/portfolioTwoColumn">Portfolio 2 column</Link></li>
-                                       <li><Link to="/portfolioThreeColumn">Portfolio 3 column</Link></li>
-                                       <li><Link to="/portfolioSlider">Portfolio Slider</Link></li> */}
+                                       <li><Link to="https://clinicawomeds.com/blog/">Blog</Link></li>
                                        <li><Link to="/contact">Contacto</Link></li>
-                                       {/* <li><Link to="/notMatch">404 page</Link></li> */}
                                     </ul>
                                  </li>
                               </ul>
                            </nav>
                         </div>
-
                         <div className="side-menu-icon d-lg-none text-end">
                            <button onClick={handleShow} className="side-toggle border-0 bg-transparent">
                               <i className="fas fa-bars"></i> </button>

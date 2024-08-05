@@ -31,13 +31,8 @@ import PortfolioTwoColumn from './pages/PortfolioTwoColumn/PortfolioTwoColumn';
 import Register from './pages/Register/Register';
 import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
 import ServicesOne from './pages/Services/ServicesOne/ServicesOne';
-import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
-import ShopDetails from './pages/ShopDetails/ShopDetails/ShopDetails';
-import ShopPage from './pages/ShopPage/ShopPage/ShopPage';
-import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
-import WishList from './pages/wishList/WishList';
-import HomeFive from './pages/HomeFive/HomeFive';
-import './App.css';
+import ServicesTwoTwo from './pages/Services/ServicesTwoTwo/ServicesTwoTwo';
+import ServicesThree from './pages/Services/ServicesThree/ServicesThree';
 import NotFound from './pages/NotFound/NotFound';
 
 
@@ -53,18 +48,14 @@ function App() {
             <Route path="/homeTwo" element={<HomeTwo />} />
             <Route path="/homeThree" element={<HomeThree />} />
             <Route path="/homeFour" element={<HomeFour />} />
-            <Route path="/homeFive" element={<HomeFive />} />
             <Route path="/services" element={<ServicesOne />} />
-            <Route path="/servicesTwo" element={<ServicesTwo />} />
+            <Route path="/servicesTwoTwo" element={<ServicesTwoTwo />} />
+            <Route path="/servicesThree" element={<ServicesThree />} />
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/doctors" element={<DoctorsOne />} />
             <Route path="/doctorsTwo" element={<DoctorsTwo />} />
             <Route path="/doctorDetails" element={<DoctorDetails />} />
-            <Route path="/shop" element={<ShopPage />} />
-            <Route path="/shopDetails" element={<ShopDetails />} />
-            <Route path="/shoppingCart" element={<ShoppingCart />} />
             <Route path="/checkout" element={<CheckoutPage />} />
-            <Route path="/wishList" element={<WishList />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/blogs" element={<Blogs />} />

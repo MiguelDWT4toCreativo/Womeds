@@ -33,23 +33,21 @@ const HomeFooter = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
+                            <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
-                                        <h3>Departments</h3>
+                                        <h3>Contacto</h3>
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
-                                            <li><Link to="/servicesDetails">Surgery and Radiology</Link></li>
-                                            <li><Link to="/servicesDetails">Family Medicine</Link></li>
-                                            <li><Link to="/servicesDetails">Women’s Health</Link></li>
-                                            <li><Link to="/servicesDetails">Optician</Link></li>
-                                            <li><Link to="/servicesDetails">Pediatrics</Link></li>
-                                            <li><Link to="/servicesDetails">Dermatology</Link></li>
+                                            {/* <li>CEO: Vanessa Martínez</li> */}
+                                            {/* <li>Phone USA: 929 693 1556</li> */}
+                                            <li>Telefono: +52 1 771 197 9737</li>
+                                            <li></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                             {/* <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
                                 <div className="footer-widget mb-30">
                                     <div className="footer-title">
@@ -75,7 +73,7 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright text-center">
-                                    <p className="white-color">Copyright by@Womeds - 2024</p>
+                                    <p className="black-color">Copyright by@Womeds - 2024</p>
                                 </div>
                             </div>
                         </div>
