@@ -27,7 +27,7 @@ const ServicesThreeAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img8.png" height="250px" class="mb-1+" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>MASAJES</h3>
@@ -39,12 +39,12 @@ const ServicesThreeAbout = () => {
                      </div>
                   </div>
 
-                  <HomeSIngleService icon="" title="PRESOTERAPIA" border_className="service-box-border" descripcion="Técnica médica indicada para lograr un drenaje linfático en personas que presentan problemas médicos y estéticos, como alteraciones en el sistema circulatorio, piernas cansadas, edemas, celulitis y acumulaciones de grasa." />
+                  <HomeSIngleService icon="19" title="PRESOTERAPIA" border_className="service-box-border" descripcion="Técnica médica indicada para lograr un drenaje linfático en personas que presentan problemas médicos y estéticos, como alteraciones en el sistema circulatorio, piernas cansadas, edemas, celulitis y acumulaciones de grasa." />
 
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img6.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>RADIOFRECUENCIA CORPORAL</h3>
@@ -58,7 +58,7 @@ const ServicesThreeAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                         <img src="img/services/images/img5.png" height="250px"  class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>ACCENT CORPORAL</h3>
@@ -76,7 +76,7 @@ const ServicesThreeAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img4.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>ULTRASONIDO</h3>
@@ -93,7 +93,7 @@ const ServicesThreeAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img3.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>CAVITACIÓN </h3>
@@ -102,8 +102,8 @@ const ServicesThreeAbout = () => {
                      </div>
                   </div>
 
-                  <HomeSIngleService icon="" title="RETIRO DE TATUAJE LASER ND YAG" border_className="service-box-border" descripcion="Dirige al tatuaje pulsos de energía, fragmentando las moléculas de tinta en partículas más pequeñas haciendo desaparecer el tatuaje." />
-                  <HomeSIngleService icon="" title="DEPILACIÓN LÁSER DIODO" border_className="service-box-border" descripcion="Sistema de depilación definitiva. Para eliminar el vello desde la raíz, se aplica un haz de luz que penetra en la piel sin dañarla, destruyendo el folículo para que el pelo no vuelva a aparecer." />
+                  <HomeSIngleService icon="20" title="RETIRO DE TATUAJE LASER ND YAG" border_className="service-box-border" descripcion="Dirige al tatuaje pulsos de energía, fragmentando las moléculas de tinta en partículas más pequeñas haciendo desaparecer el tatuaje." />
+                  <HomeSIngleService icon="21" title="DEPILACIÓN LÁSER DIODO" border_className="service-box-border" descripcion="Sistema de depilación definitiva. Para eliminar el vello desde la raíz, se aplica un haz de luz que penetra en la piel sin dañarla, destruyendo el folículo para que el pelo no vuelva a aparecer." />
                   
                </div>
             </div>

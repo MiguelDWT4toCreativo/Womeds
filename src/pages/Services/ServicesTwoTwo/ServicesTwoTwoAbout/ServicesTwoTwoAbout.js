@@ -23,13 +23,13 @@ const ServicesTwoTwoAbout = () => {
                   </div>
                </div>
                <div className="row">
-                  <HomeSIngleService icon="" title="LIMPIEZA FACIAL PROFUNDA" border_className="service-box-border" descripcion="Procedimiento no invasivo,destinado a mejorar el aspecto de la piel, corregir la dilatación de los poros, eliminar las células más superficiales y extraer los “puntos negros” o comedones y los micro quistes que se van acumulando con el tiempo." />
-                  <HomeSIngleService icon="" title="HYDRAFACIAL" border_className="service-box-border" descripcion="Tratamiento calmante, refrescante, no irritante y de efecto inmediato. Remueve las células muertas y el exceso de sebo en tu piel." />
-                  <HomeSIngleService icon="" title="MICRODERMOABRASIÒN" border_className="service-box-border" descripcion="Tratamiento no invasivo, indoloro, el cual se realiza con una punta diamante ideal para mantener la piel joven, suave y limpia. Se obtiene resultados similares a los del peeling superficial ayudando al rejuvenecimiento de la piel eliminando las células muertas." />
+                  <HomeSIngleService icon="16" title="LIMPIEZA FACIAL PROFUNDA" border_className="service-box-border" descripcion="Procedimiento no invasivo,destinado a mejorar el aspecto de la piel, corregir la dilatación de los poros, eliminar las células más superficiales y extraer los “puntos negros” o comedones y los micro quistes que se van acumulando con el tiempo." />
+                  <HomeSIngleService icon="17" title="HYDRAFACIAL" border_className="service-box-border" descripcion="Tratamiento calmante, refrescante, no irritante y de efecto inmediato. Remueve las células muertas y el exceso de sebo en tu piel." />
+                  <HomeSIngleService icon="18" title="MICRODERMOABRASIÒN" border_className="service-box-border" descripcion="Tratamiento no invasivo, indoloro, el cual se realiza con una punta diamante ideal para mantener la piel joven, suave y limpia. Se obtiene resultados similares a los del peeling superficial ayudando al rejuvenecimiento de la piel eliminando las células muertas." />
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img14.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>RADIOFRECUENCIA FACIAL</h3>
@@ -42,7 +42,7 @@ const ServicesTwoTwoAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img10.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>ACCENT FACIAL</h3>
@@ -59,7 +59,7 @@ const ServicesTwoTwoAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img12.png"  height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>E-LIGHT</h3>
@@ -76,7 +76,7 @@ const ServicesTwoTwoAbout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/.png" alt="" />
+                           <img src="img/services/images/img11.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>HOLLYWOOD PEEL</h3>
