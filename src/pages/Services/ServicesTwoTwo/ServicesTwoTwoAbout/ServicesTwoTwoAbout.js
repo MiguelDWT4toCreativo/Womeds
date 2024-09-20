@@ -7,7 +7,7 @@ const ServicesTwoTwoAbout = () => {
          <section className="about-area pt-120 pb-90">
             <div className="container">
                <div className="row ">
-                  <div className="col-xl-6 col-lg-6 col-md-12">
+                  <div className="col-xl-12 col-lg-12 col-md-12">
                      <div className="section-title section-title-m-0 pos-rel mb-50 text-end">
                         <div className="section-icon">
                         </div>

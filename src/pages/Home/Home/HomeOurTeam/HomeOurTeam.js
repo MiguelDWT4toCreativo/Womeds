@@ -30,12 +30,10 @@ const HomeOurTeam = () => {
                </div>
                <div className="row">
 
-                  <HomeSingleTeam image="1" title="Roberto Martínez García" subtitle="Dr. Medico cirujano."/>
                   <HomeSingleTeam image="2" title="Ximena Guadalupe Pérez Cruz" subtitle="Lic. Terapia Física." />
+                  <HomeSingleTeam image="1" title="Roberto Martínez García" subtitle="Dr. Medico cirujano."/>
                   <HomeSingleTeam image="3" title="Rocio Arlem Barrera Vazquez" subtitle="Lic. Terapia Física." />
-                  {/* <HomeSingleTeam image="4" title="Haliam Z. Dicolaz" subtitle="Consultor" />
-                  <HomeSingleTeam image="5" title="Nicolas D. Case" subtitle="Dentista" />
-                  <HomeSingleTeam image="6" title="Phumdon H. Norman" subtitle="Neurólogo" /> */}
+                  
 
                </div>
             </div>

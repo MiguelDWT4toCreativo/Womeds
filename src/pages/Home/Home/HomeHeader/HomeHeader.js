@@ -23,9 +23,6 @@ const HomeHeader = () => {
                               <ul>
                                  <li><a href="https://www.facebook.com/womensmedicalspa"><i className="fab fa-facebook-f"></i></a></li>
                                  <li><a href="https://www.instagram.com/womeds_clinicalspa/"><i className="fab fa-instagram"></i></a></li>
-                                 {/* <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i className="fab fa-pinterest"></i></a></li> */}
                               </ul>
                            </div>
 
@@ -55,7 +52,7 @@ const HomeHeader = () => {
                                  <li><a href="#">Más +</a>
                                     <ul className="submenu">
                                        <li><Link to="/about">Acerca de</Link></li>
-                                       <li><Link to="https://clinicawomeds.com/blog/">Blog</Link></li>
+                                       <li><a href="https://clinicawomeds.com/blog/author/admin/">Blog</a></li>
                                        <li><Link to="/contact">Contacto</Link></li>
                                     </ul>
                                  </li>

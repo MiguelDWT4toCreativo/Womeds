@@ -95,6 +95,7 @@ const Sidebar = ({ show, handleClose }) => {
                      triggerOpenedClassName="" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/about">Acerca de</NavLink></li>
+                        <li><a href="https://clinicawomeds.com/blog/author/admin/">Blog</a></li>
                         <li><NavLink to="/contact">Contacto</NavLink></li>
                      </ul>
                   </Collapsible>

@@ -7,7 +7,7 @@ const ServicesOneABout = () => {
          <section className="about-area pt-120 pb-90">
             <div className="container">
                <div className="row ">
-                  <div className="col-xl-6 col-lg-6 col-md-12">
+                  <div className="col-xl-12 col-lg-12 col-md-12">
                      <div className="section-title section-title-m-0 pos-rel mb-50 text-end">
                         <div className="section-icon">
                         </div>
@@ -18,13 +18,12 @@ const ServicesOneABout = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-12">
                      <div className="facalty-text">
-                        <img src="img/section/estetica.png" alt="" />
                      </div>
                   </div>
                </div>
                <div className="row">
-                  <HomeSIngleService icon="11"  title="TOXINA BOTULÍNICA" border_className="service-box-border" descripcion="Es una sustancia que tiene la capacidad de producir parálisis muscular. Minimiza los surcos y arrugas de expresión." />
-                  <HomeSIngleService icon="12" style=".icon{height:200px}"  title="RELLENO CON ÁCIDO HIALURÓNICO" border_className="service-box-border" descripcion="El ácido hialurónico es principalmente para suavizar o rellenar las arrugas, mejorar cicatrices, redefinir el contorno de la cara, aumentar o corregir los labios, rejuvenecimiento de las manos." />
+                  <HomeSIngleService icon="11" title="TOXINA BOTULÍNICA" border_className="service-box-border" descripcion="Es una sustancia que tiene la capacidad de producir parálisis muscular. Minimiza los surcos y arrugas de expresión." />
+                  <HomeSIngleService icon="12" style=".icon{height:200px}" title="RELLENO CON ÁCIDO HIALURÓNICO" border_className="service-box-border" descripcion="El ácido hialurónico es principalmente para suavizar o rellenar las arrugas, mejorar cicatrices, redefinir el contorno de la cara, aumentar o corregir los labios, rejuvenecimiento de las manos." />
                   <HomeSIngleService icon="13" title="RINOMODELACIÓN" border_className="service-box-border" descripcion="Es un tratamiento que se realiza con ácido hialurónico, con la finalidad de corregir, armonizar y embellecer la forma de la nariz. '<img>'" />
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
@@ -42,7 +41,7 @@ const ServicesOneABout = () => {
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
-                           <img src="img/services/images/img22.png" height="250px" class="mb-1" alt="" /> 
+                           <img src="img/services/images/img22.png" height="250px" class="mb-1" alt="" />
                         </div>
                         <div className="service-content">
                            <h3>PLASMA RICO EN PLAQUETAS</h3>
@@ -104,7 +103,7 @@ const ServicesOneABout = () => {
                         </div>
                      </div>
                   </div>
-                  
+
                </div>
             </div>
          </section>

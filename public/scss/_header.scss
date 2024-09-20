@@ -114,7 +114,7 @@
  .header__menu ul li ul.submenu {
      position: absolute;
      background: #ffffff;
-     width: 250px;
+     width: 150px;
      top: 110%;
      left: 0;
      opacity: 0;
@@ -125,7 +125,7 @@
      -ms-transition: all 0.3s ease-out 0s;
      -o-transition: all 0.3s ease-out 0s;
      transition: all 0.3s ease-out 0s;
-     border-top: 5px solid #e12454;
+     border-top: 5px solid #bf76ff;
      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
      z-index: 99;
 }

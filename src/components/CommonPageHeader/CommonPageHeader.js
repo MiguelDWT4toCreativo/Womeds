@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CommonPageHeader = ({title,subtitle}) => {
    return (
-      <>
-         <section className="breadcrumb-bg pt-200 pb-180 page_header_bg">
+      <section className="breadcrumb-bg pt-200 pb-180 page_header_bg">
             <div className="container">
                <div className="row">
                   <div className="col-lg-9 col-md-9">
@@ -27,7 +26,6 @@ const CommonPageHeader = ({title,subtitle}) => {
                </div>
             </div>
          </section>
-      </>
    );
 };
 
